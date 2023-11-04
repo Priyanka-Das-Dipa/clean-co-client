@@ -20,6 +20,7 @@ const Login = () => {
       console.log("Logged in");
     } catch (err) {
       toast.error(err.message, { id: toastId });
+      console.log(err)
     }
   };
 
